@@ -5,7 +5,18 @@ This is a simple and modern responsive **About Me** website built using HTML and
 ## 🚀 Live Demo
 
 View it live on GitHub Pages:  
-[[https://yourusername.github.io/your-repo-name/](https://tony656.github.io/AboutMe/)]
-
+[https://tony656.github.io/AboutMe/](https://tony656.github.io/AboutMe/)
 ## 📁 Project Structure
 
+## 💡 Features
+
+- Clean and modern design
+- Responsive layout (mobile-friendly)
+- Styled with CSS and Google Fonts
+- Easy to customize
+
+## 🛠️ Tech Stack
+
+- HTML5
+- CSS3 (with modern layout + styles)
+- Google Fonts
