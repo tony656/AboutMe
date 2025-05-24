@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Me</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    header {
+      padding: 60px 20px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      background: rgba(255, 255, 255, 0.05);
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+      backdrop-filter: blur(10px);
+    }
+
+    .profile-img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #4CAF50;
+      display: block;
+      margin: 0 auto 20px;
+    }
+
+    h2 {
+      color: #4CAF50;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      font-size: 1.6rem;
+      border-bottom: 2px solid #4CAF50;
+      display: inline-block;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li {
+      margin: 8px 0;
+      padding-left: 10px;
+      position: relative;
+    }
+
+    ul li::before {
+      content: "✓";
+      color: #4CAF50;
+      position: absolute;
+      left: 0;
+    }
+
+    a {
+      color: #4CAF50;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 20px;
+      }
+
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Hello, I'm Kelvin Anthony</h1>
+    <p>A passionate Programmer  from Tanzania</p>
+  </header>
+
+  <div class="container">
+    <img src="image.jpg" alt="Profile Photo" class="profile-img"/>
+
+    <section>
+      <h2>About Me</h2>
+      <p>
+        I'm a Web Developer who loves turning ideas into reality through code. With a strong passion for technology and problem-solving, I build websites, and digital experiences that are both functional and beautiful.
+      </p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML5 / CSS3 / JavaScript</li>
+        <li>Laravel / Angular</li>
+        <li>Node.js / PHP / Firebase</li>
+        <li>UI/UX Design</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Hobbies</h2>
+      <p>
+        When I'm not coding, I enjoy gaming, reading tech blogs, playing volleyball, and learning new frameworks.
+      </p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:salalakelvin04@gmail.com">salalakelvin04@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/tony656" target="_blank">github.com/tony656</a></p>
+     
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 Kelvin Anthony. Built with ❤️
+  </footer>
+
+</body>
+</html>
